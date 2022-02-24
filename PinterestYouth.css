@@ -1,0 +1,142 @@
+/*Sectionone*/
+.sectionone{
+	background-image: url(https://i.pinimg.com/originals/bd/9f/02/bd9f0275547978ddb889910647319897.jpg);
+	background-size: cover;
+	width: auto;
+	height: 130vh;
+	/*z-index: 1;*/
+	/*position: relative;*/
+
+} 
+.navbar{
+	height: 90px;
+	display: flex;
+	background-color: Grey;	
+	position: fixed;
+	font-family: 'Redressed' , cursive;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+.list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	font-size: 35px;
+}
+.list li a{
+	padding: 10px 30px;
+	margin: 5px;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+a:hover{
+	background: burlywood;
+}
+
+.mainbody{
+	background-color: grey;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	height: 14%;
+}
+.mainbody h1{
+	padding: 60px;
+	font-family: 'Akaya Teliivigala', cursive;
+}
+body{
+	background-color: black;
+	background-position: fixed;
+}
+.header1{
+	text-align: center;
+	font-family: 'Redressed',cursive;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+	border: solid grey;
+	margin: 0 400px;
+	height: auto;
+	background-color: lightgray;
+	color: black;
+}
+
+/*SectionTwo*/
+.imageone{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+/*	margin: 10px;*/
+	
+
+}
+.imagetwo{
+	border: 2px solid grey;
+	margin: 10px;
+
+}
+.sectiontwo{
+	margin-top: 100px;
+
+}
+.imagetwo p{
+	text-align: center;
+	color: white;
+}
+/*SectionTwo*/
+.review{
+	display: inline-flex;
+	border: 2px solid black;
+	margin: 10px;
+}
+.reviewimage{
+	float: left;
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+
+}
+.reviewblog{
+	color: white;
+	/*float: right;*/
+}
+.sectiononebutton{
+	padding: 50px 200px 10px 600px;
+	width: 100px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+.button{
+	width: 300px;
+	height: 50px;
+	margin: 0 500px;
+}
+/*Footer*/
+.footer{
+	width: 100%;
+	/*display:flex;
+	align-items: center;*/
+	background-color: grey;
+	color: black;
+	font-family: 'Rowdies', cursive;
+}
+.title{
+	padding-left: 25px;
+}
+.about{	
+	display: inline-block;
+	padding: 5px 30px;
+}
+.contact{
+	display: inline-block;
+	padding: 10px 30px;
+}
+.Thanks{
+	padding: 20px 200px 10px 600px;
+	font-family: 'Roedies', cursive;
+	color: black;
+}
+
